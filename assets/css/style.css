@@ -1,28 +1,38 @@
+/* Adds these properties to all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Makes background color a light grey */
 body {
     background-color: #d9dcd6;
 }
 
+/*Adds padding on all sides, changes the font style, adds a background color and chooses
+a font color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
+
+/*Changes it's display behavior and the size of font*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Changes font color*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Adds padding to only the top, adds margin on only the right side, adds float 
+property to change it's positioning and formatting, changes the font style and changes
+the font size*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,24 +41,30 @@ header nav {
     font-size: 20px;
 }
 
+/*This removes the list marker on the list items*/
 header nav ul {
     list-style-type: none;
 }
 
+/*Changes the display behavior and adds a margin only on the left side*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Changes the font color and removes the underscore from the links*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Changes size of font*/
 p {
     font-size: 16px;
 }
 
+/*Adds padding on all sides, clear will change the flow next to floated elements,
+chooses a different font style, and makes all text aligned to the center*/
 footer {
     padding: 30px;
     clear: both;
@@ -56,10 +72,14 @@ footer {
     text-align: center;
 }
 
+/*Changes size of font*/
 footer h4 {
     font-size: 20px;
 }
 
+/*This makes the background for this section an image and defines the height,
+width, also makes the image in the center and has it cover the whole area and adds
+a margin to only the bottom*/
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +89,17 @@ footer h4 {
     background-position: center;
 }
 
+/*Changes the width of the content, changes the display behavior and adds a margin to
+only the left*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Adds margin to only the bottom, adds padding on all sides, changes the height
+of the content, change the font style, adds a background color and color of the
+font*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,25 +109,33 @@ footer h4 {
     color: #ffffff;
 }
 
+/*Defines the max height this image can be*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Adds margin to only the bottom and changes the size of font*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds float property to change it's positioning and formatting and adds margin
+to only the right side*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*adds float property to change it's positioning and formatting and adds margin
+to only the left side*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Adds margin to only the bottom, adds padding on all sides, changes the height
+of the content, changes the font style, adds a background color and color of font*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -112,15 +145,19 @@ footer h4 {
     color: #ffffff;
 }
 
+/*Defines the max height for this image*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Adds margin to only the bottom and changes the size of font*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds margin to only the bottom, adds padding on all sides, changes the height
+of the content, changes the style of font, adds a background color and color of font*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -130,15 +167,20 @@ footer h4 {
     color: #ffffff;
 }
 
+/*Defines the max height for this image*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*Adds a margin to the bottom only and changes the size of font*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Adds margin to only the right side, adds padding on all sides, controls the 
+flow next to a floated element, adds positioning and formatting with float,
+changes the width and height of the content, changes the font style and background color. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -150,48 +192,62 @@ footer h4 {
     background-color: #2589bd;
 }
 
+/*Adds margin to only the bottom and changes the font color*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Adds margin to only the bottom and centers the text*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Changes the display behavior, adds 10px of margin on the top and bottom and the 
+left and right side margin will be split so the img is in the center horizontally*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Adds margin to only the bottom and changes the color of the font*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Adds margin to only the bottom and makes the text centered*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Changes the display behavior, adds 10px margin to the top and bottom and the left and
+right margin will be split so the img is centered horizontally, defines the max
+width the img can be*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Adds margin on only the bottom and changes the font color */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Adds margin on only the bottom and centers the text*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Changes the display behavior, adds 10px margin to the top and bottom and the left and
+right margin will be split so the img is centered horizontally, defines the max
+width the img can be*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
