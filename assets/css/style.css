@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Makes background color a light grey */
@@ -25,7 +26,7 @@ header h1 {
     font-size: 48px;
 }
 
-/*Changes font color*/
+/*Changes font color for certain letters in the header h1*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -37,7 +38,6 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -63,20 +63,6 @@ p {
     font-size: 16px;
 }
 
-/*Adds padding on all sides, clear will change the flow next to floated elements,
-chooses a different font style, and makes all text aligned to the center*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-/*Changes size of font*/
-footer h4 {
-    font-size: 20px;
-}
-
 /*This makes the background for this section an image and defines the height,
 width, also makes the image in the center and has it cover the whole area and adds
 a margin to only the bottom*/
@@ -98,26 +84,25 @@ only the left*/
 }
 
 /*Adds margin to only the bottom, adds padding on all sides, changes the height
-of the content, change the font style, adds a background color and color of the
+of the content, changes the font family, adds a background color and color of the
 font*/
-.search-engine-optimization {
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
 /*Defines the max height this image can be*/
-.search-engine-optimization img {
+.content img {
     max-height: 200px;
 }
 
 /*Adds margin to only the bottom and changes the size of font*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
+.content h2 {
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 /*Adds float property to change it's positioning and formatting and adds margin
@@ -134,50 +119,6 @@ to only the left side*/
     margin-left: 25px;
 }
 
-/*Adds margin to only the bottom, adds padding on all sides, changes the height
-of the content, changes the font style, adds a background color and color of font*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Defines the max height for this image*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*Adds margin to only the bottom and changes the size of font*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*Adds margin to only the bottom, adds padding on all sides, changes the height
-of the content, changes the style of font, adds a background color and color of font*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Defines the max height for this image*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*Adds a margin to the bottom only and changes the size of font*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /*Adds margin to only the right side, adds padding on all sides, controls the 
 flow next to a floated element, adds positioning and formatting with float,
 changes the width and height of the content, changes the font style and background color. */
@@ -188,68 +129,39 @@ changes the width and height of the content, changes the font style and backgrou
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 /*Adds margin to only the bottom and changes the font color*/
-.benefit-lead {
+.benefits section {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; 
 }
 
 /*Adds margin to only the bottom and centers the text*/
-.benefit-lead h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /*Changes the display behavior, adds 10px of margin on the top and bottom and the 
 left and right side margin will be split so the img is in the center horizontally*/
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*Adds margin to only the bottom and changes the color of the font*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Adds margin to only the bottom and makes the text centered*/
-.benefit-brand h3 {
-    margin-bottom: 10px;
+/*Adds padding on all sides, clear will change the flow next to floated elements,
+chooses a different font family, and makes all text aligned to the center*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-/*Changes the display behavior, adds 10px margin to the top and bottom and the left and
-right margin will be split so the img is centered horizontally, defines the max
-width the img can be*/
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Adds margin on only the bottom and changes the font color */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Adds margin on only the bottom and centers the text*/
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Changes the display behavior, adds 10px margin to the top and bottom and the left and
-right margin will be split so the img is centered horizontally, defines the max
-width the img can be*/
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/*Changes size of font*/
+footer h4 {
+    font-size: 20px;
 }
