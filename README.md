@@ -1,5 +1,7 @@
 # Marketing-Agency-Refractor
 
+![Image of website](/assets/images/Horiseon%20Marketing%20Agency%20-%20Google%20Chrome%2011_16_2023%206_12_40%20PM.png?raw=true )
+
 ## Description
 
 - This is a refractor of the original code given of a marketing agency website.
