@@ -11,9 +11,9 @@
 
 ## Usage
 
-- The webpage can be viewed by this [link](https://noah-10.github.io/Marketing-Agency-Refractor/)
+- The webpage can be viewed by this [link](https://noah-10.github.io/Marketing-Agency-Refractor/).
 
 ## Credits 
 
-- The original copy of code [here](https://github.com/coding-boot-camp/urban-octo-telegram)
+- The original copy of code [here](https://github.com/coding-boot-camp/urban-octo-telegram).
 
